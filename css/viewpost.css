@@ -1,0 +1,77 @@
+
+/* .navbar{
+    background-color: #B4B2A3;
+    margin-bottom: 100PX;
+    
+} */
+body{
+  background-color: #e7edee;
+}
+.navbar{
+    background-color: #149677;
+    padding: 20px 15px;
+    margin-bottom: 100px;
+    border-radius: 2px;
+    color: black;
+
+}
+.view-post{
+    margin-bottom: 100px;
+    background-color:#fff;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+/* .view-post img{
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 5px;
+} */
+.view-post:hover{
+  box-shadow: gray 5px 5px 10px 10px;
+}
+.similer-ads{
+    margin-bottom: 100px;
+    background-color: #fff;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.footer-baground{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 4px solid #149677;
+    border-radius: 2px;
+  }
+  footer{
+  text-align: center;
+  }
+  .footer-links{
+    color: gray;
+  }
+.similer-ads{
+    font-size: small;
+    width: 80%;;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .similer-ads img{
+    width: 120px;
+  }
+  /* caro */
+  .carousel-img img{
+    width: 150px;
+  }
+.others-product:hover{
+    border: 1px solid #e7bc81;
+    border-radius: 5px; 
+}
+.view-img img{
+  width: 90%;
+  height: 50%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  
+}

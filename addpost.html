@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add a post</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Viewpost Sheet-->
+    <link rel="stylesheet" href="css/viewpost.css">
+    <!-- Add Your Post -->
+    <link rel="stylesheet" href="css/addpost.css">
+    <!--Get your own code at fontawesome.com-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark ">
+      <a href="#" class="navbar-brand"><img src="media/logo/logo.png" alt=""></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-success" href="alladds.html">All Adds</a>
+          </li>
+          <li class="nav-item">
+            <a target="_blank" class="nav-link" href="login.html">Log in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-warning" href="addpost.html">Post Your Ad</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        </div>
+    </nav>
+  </div>
+  <!-- Add your Post Section -->
+  <div class="container location-menu">
+    <!-- <div class="row details-top">
+      <div class="col-md-4">
+        <div class="btn-group">
+          <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Types Plastic You want to Sell?
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Recyclable Polybag</button></li>
+            <li><button class="dropdown-item" type="button">Used bottles</button></li>
+            <li><button class="dropdown-item" type="button">Idustrial waste</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <h3>Fill in the details</h3>
+      </div>
+      <div class="col-md-4">
+        <div class="btn-group">
+          <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+            Types Plastic You want to Sell?
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end">
+            <li><button class="dropdown-item" type="button">Chattogram</button></li>
+            <li><button class="dropdown-item" type="button">Sylhet</button></li>
+            <li><button class="dropdown-item" type="button">Khulna</button></li>
+            <li><button class="dropdown-item" type="button">Barishal</button></li>
+            <li><button class="dropdown-item" type="button">Rajshahi</button></li>
+            <li><button class="dropdown-item" type="button">Rangpur</button></li>
+            <li><button class="dropdown-item" type="button">Mymensingh</button></li>
+          </ul>
+        </div> 
+      </div>
+    </div> -->
+    <div class="details-top">
+      <h3 class="text-center">Fill in the details</h3>
+    </div>
+    <!-- End Drop Down Menu -->
+    <div class="row mt-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <p class="select-text">Select Your Area</p>
+        <select class="form-select" aria-label="Default select example">
+          <option value="1">Dhaka</option>
+          <option value="2">Chattogram</option>
+          <option value="3">Sylhet</option>
+          <option value="4">Khulna</option>
+          <option value="5">Barishal</option>
+          <option value="6">Rajshahi</option>
+          <option value="7">Mymensingh</option>
+        </select>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!--End Select Location ber -->
+    <!-- Start Category of plastic -->
+    <div class="row mt-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <p class="select-text">Types Plastic You want to Sell?</p>
+        <select class="form-select" aria-label="Default select example">
+          <option value="1">Recyclable Polybag</option>
+          <option value="2">Used bottles</option>
+          <option value="3">Idustrial waste</option>
+        </select>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!--End Select location -->
+    <div class="row mt-5">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Title</span>
+          <input type="text" class="form-control is-invalid" placeholder="Keep it short!" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- Start Title -->
+    <div class="row mt-5">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-8">
+        <div class="input-group">
+          <span class="input-group-text">With textarea</span>
+          <textarea class="form-control is-invalid" rows="5"aria-label="With textarea"></textarea>
+        </div>
+      </div>
+      <div class="col-md-2">
+      </div>
+    </div>
+    <!-- End Descriptions --> 
+    <div class="row mt-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Weight (Kg)</span>
+          <input type="text" class="form-control is-invalid" placeholder="Keep it short!" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!--End Weight Section -->
+    <div class="row mt-5 text-center">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Price (TK)</span>
+          <input type="text" class="form-control is-invalid" placeholder="Pick a good price - what would you pay?" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!-- Add Image Section -->
+    <div class="add-img">
+      <h6 class="text-center bottom-imghedding">
+        Add Upto 3 Photos <i class='far fa-question-circle'></i>
+      </h6>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 d-flex justify-content-center">
+          <div class="image-input d-flex align-items-center justify-content-center">
+            <i class='far fa-image' style='font-size:24px; color: #2bb4eb'></i>
+          </div>
+          <div class="image-inputside d-flex align-items-center justify-content-center">
+            <i class='far fa-image' style='font-size:24px; color: #d8e1e2'></i>
+          </div>
+          <div class="image-inputside d-flex align-items-center justify-content-center">
+            <i class='far fa-image' style='font-size:24px; color: #d8e1e2'></i>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="mt-1">
+          <p class="text-center mini-text">You must upload at least one photo</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Image Input Section -->
+    <br>
+    <div class="details-top">
+      <h5 class="text-center">Contact details</h5>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="input-group">
+          <span class="input-group-text">Name</span>
+          <input type="text" aria-label="First name" class="form-control is-invalid"> 
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="input-group">
+          <span class="input-group-text">Email</span>
+          <input type="text" aria-label="First name" class="form-control is-invalid"> 
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="input-group">
+          <span class="input-group-text">Phone Number</span>
+          <input type="text" aria-label="First name" class="form-control is-invalid"> 
+        </div>
+      </div>
+      <div class="col-md-4"></div>
+    </div> 
+  </div>
+  <!--Start footer part -->
+  <div class="footer-baground">
+    <div class="row">
+      <ul class="footer-links d-flex justify-content-center align-items-center">
+        <a href="">ABOUT US</a>
+        <span class="footer-links">|</span>
+        <a href="">CONTACT US</a>
+        <span class="footer-links">|</span>
+        <a href="">TERMS & PRIVACY POLICY</a>
+      </ul>
+      <footer>© 2020 - 2021 Trash Pickup</footer>
+    </div>
+  </div>
+  <!-- Java Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>  
+</body>
+</html>

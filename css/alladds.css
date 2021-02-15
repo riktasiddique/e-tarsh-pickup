@@ -1,0 +1,118 @@
+.location{
+    background-color: #fff;
+    width: 80%;
+    padding: 20px 35px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.location img{
+    width: 25px;
+}
+#filter-by{
+    border-bottom: solid #e7edee 0.25px;
+    padding: 5px 55px;
+}
+#urgent{
+    background-color: #ec985b;
+    padding: 3px 8px;
+    color: black;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: 500;
+}
+#best-seller{
+    background-color: #11b38f;
+    padding: 3px 8px;
+    color: black;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: 500;
+}
+.fornt-design{
+    font-size: 13px;
+    color: gray;
+}
+.col-md-3{
+    border-right: solid #e7edee 0.25px;
+    margin-bottom: 50px;
+}
+.card img{
+    width: 175px;
+    padding: 10px 10px;
+}
+#alladds-section{
+    margin-bottom: 100px;
+}
+.left-side img{
+    /* width: 200px; */
+    /* padding: 5px 5px; */
+    width: 90%;
+    border-radius: 2px;
+}
+.left-side{
+    content: center;
+}
+.member{
+    background-color: rgb(201, 188, 188);
+    font-size: smaller;
+    padding: 1px 3px;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 2px;
+}
+.city-division{
+    border-top: solid #e7edee 0.25px;
+}
+.product-type{
+    border: 1px solid #e7bc81;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 4px;
+  }
+.product-type:hover{
+    background-color: #e4f7e4;
+    box-shadow: #d1cdcd 2px 2px 5px 5px;
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+  }
+.star{
+    color:  #e7bc81;
+  }
+.add-right{
+    margin: 5px 5px;
+  }
+ .top-ad{
+    font-size: 10px;
+    
+ }
+  .top-ad:hover{
+      color: rgb(45, 168, 224);
+  }
+.price{
+    color:  #149777;
+    font-weight: 500;
+}
+.address{
+    color: gray;
+}
+.minute-ago{
+    color: gray;
+    font-size: 13px;
+
+}
+.sell-urgent{
+    background-color: #ec985b;
+    color: #fff;
+    padding: 2px 2px;
+    border-radius: 2px;
+}
+.best-sellers{
+    background-color: #11b38f;
+    color: #fff;
+    padding: 2px 2px;
+    border-radius: 2px;
+}
+#all-bd{
+    border-bottom: solid #e7edee 0.25px;
+    padding: 2px 2px;
+}

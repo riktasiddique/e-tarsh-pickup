@@ -1,0 +1,32 @@
+body{
+    background-color: #e7edee;
+}
+.login-section{
+   width: 70%;
+   padding: 15px 15px;
+   background-color: #fff;
+   box-shadow: #e2f7f2  10px 10px 20px 20px;
+   border-radius: 5px;
+   margin-bottom: 100px;
+   border: 1px solid  #e7bc81;
+}
+.input-box{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid rgb(223, 238, 218) 0.25px;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+}
+
+.log-in{
+    color: #fff;
+}
+#singup-color{
+    color: #149777;
+}
+.form-check-label{
+    font-weight: 500;
+}
